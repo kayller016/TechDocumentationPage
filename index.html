@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Technical Documentation Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+<nav id="navbar">
+  <header>Python</header>
+  <ul>
+    <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+    <li>
+      <a class="nav-link" href="#What_you_should_already_know"
+        >What you should already know</a
+      >
+    </li>
+    <li>
+      <a class="nav-link" href="#JavaScript_and_Java">JavaScript and Java</a>
+    </li>
+    <li><a class="nav-link" href="#Hello_world">Hello world</a></li>
+    <li><a class="nav-link" href="#Variables">Variables</a></li>
+    <li>
+      <a class="nav-link" href="#Declaring_variables">Declaring variables</a>
+    </li>
+    <li><a class="nav-link" href="#Data_types">Data types</a></li>
+   
+   
+    
+    <li><a class="nav-link" href="#Reference">Reference</a></li>
+  </ul>
+</nav>
+<main id="main-doc">
+  <section class="main-section" id="Introduction">
+    <header>Introduction</header>
+    <article>
+      <p>
+        Python is a popular high-level programming language for general-purpose applications. Guido van Rossum established it in 1991, and the Python Software Foundation continues to develop it. Its syntax was created with code readability in mind, allowing programmers to communicate their ideas in fewer lines of code.
+      </p>
+
+      <p>
+        Python is a programming language that lets you work quickly and integrate systems more efficiently. There are two major Python versions: Python 2 and Python 3.
+      </p>
+      <ul>
+        <li>
+          1) Creating our first program: Line 1: [# Script Begins] Comments in Python start with a #. The interpreter ignores this sentence, however it provides as documentation for our code. Line 2: [print("GeeksQuiz")] The print() function is used to print things on the console. After our message is produced, this function additionally adds a newline (unlike in C). Note that in Python 2, "print" is a keyword rather than a function, and therefore can be used without parentheses. In Python 3, however, it is a function that must be called with parentheses. Line 3: [# Script Ends] This is essentially a repeat of Line 1's comment..
+        </li>
+        <li>
+          2) Finding an Interpreter: In order to interpret and run our Python scripts, we must first obtain an interpreter. You can run Python programs without installing an interpreter using online interpreters like https://ide.geeksforgeeks.org/, http://ideone.com/, or http://codepad.org/. Windows: IDLE (Integrated Development Environment), which comes packed with the Python software downloaded from http://python.org/, is one of many free interpreters available for running Python programs. Python is preinstalled on popular Linux distributions like Ubuntu and Fedora. In the terminal emulator, type "python" to see the version of Python you're using.
+        </li>
+      </ul>
+    </article>
+  </section>
+  <section class="main-section" id="What_you_should_already_know">
+    <header>What you should already know</header>
+    <article>
+      <p>This guide assumes you have the following basic background:</p>
+
+      <ul>
+        <li>
+         Good working knowledge about using Python.
+        </li>
+        <li>A general understanding of the Internet and the World Wide Web (WWW).</li>
+        <li>
+          Some programming experience. If you are new to programming, try one of the tutorials about Python.
+        </li>
+      </ul>
+    </article>
+  </section>
+  <section class="main-section" id="JavaScript_and_Java">
+    <header>Python</header>
+    <article>
+      <p>
+        Create a folder called PythonPrograms on your C:\ drive. You will be storing all your Python programs in this folder. Go to Start and either type Run in the Start Search box at the bootom or click on Run. Type in notepad in the field called Open. In Notepad type in the following program exactly as written
+</p>
+      <p>
+Go to Start and click on Run. Type cmd in the Open field and click OK. If you type dir you will get a listing of all folders in your C: drive. You should see the folder PythonPrograms that you created. Type cd PythonPrograms and hit Enter. It should take you to the PythonPrograms folder. Type dir and you should see the file Hello.py. To run the program, type python Hello.py and hit Enter. You should see the line Hello World! Congratulations, you have run your first Python program.
+      </p>
+<p>
+Python is an interpreted high-level general-purpose programming language. Its design philosophy emphasizes code readability with its use of significant indentation. Its language constructs as well as its object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.
+      </p>
+
+    </article>
+  </section>
+  <section class="main-section" id="Hello_world">
+    <header>Hello world</header>
+    <article>
+      From the File menu in TextEdit click on Save As. In the field Save As: type Hello.py. Select Documents and the file folder PythonPrograms. Click Save.
+      <code
+        >In a Terminal window, type python.
+This will start the Python shell.
+The prompt for that is >>>
+      </code>
+
+      Select the code in the pad and hit Ctrl+R to watch it unfold in your
+      browser!
+    </article>
+  </section>
+  <section class="main-section" id="Variables">
+    <header>Variables</header>
+    <p>
+      A Python variable is a reserved memory location to store values. In other words, a variable in a python program gives data to the computer for processing.
+    </p>
+    <p>
+     Every value in Python has a datatype. Different data types in Python are Numbers, List, Tuple, Strings, Dictionary, etc. Variables in Python can be declared by any name or even alphabets like a, aa, abc, etc.
+    </p>
+    <p>
+     Let us define variable in Python where the variable “f” is global in scope and is assigned value 101 which is printed in output. Variable f is again declared in function and assumes local scope. It is assigned value “I am learning Python.” which is printed out as an output. This Python declare variable is different from the global variable “f” defined earlier. Once the function call is over, the local variable f is destroyed. At line 12, when we again, print the value of “f” is it displays the value of global variable f=101
+    </p>
+  </section>
+  <section class="main-section" id="Declaring_variables">
+    <header>Declaring variables</header>
+    <article>
+      Declaring variables in Python requires declaring the number as string otherwise it will show a TypeError.
+
+      <p>
+        With the keyword var. For example, <code>var a = "Guru" b= 99 print a+b</code> For the following code, you will get undefined output.
+      </p>
+      <p>
+        By simply assigning it a value. For example: <code>a = "Guru" b= 99 print(a+str(b))</code> Once the integer is declared as string, it can concatenate both “Guru” + str(“99”)= “Guru99” in the output.
+      </p>
+     
+    </article>
+  </section>
+  
+  
+  <section class="main-section" id="Data_types">
+    <header>Data types</header>
+    <article>
+      <p>In programming, data type is an important concept.</p>
+      <p>Variables can store data of different types, and different types can do different things.</p>
+      <p>Python has the following data types built-in by default, in these categories:</p>
+      <ul>
+        <li>
+          <p>
+Text Type:	str</p>
+          <ul>
+            <li>Numeric Types:	int, float, complex</li>
+            <li>
+              Sequence Types:	list, tuple, range
+            </li>
+            <li>Mapping Type:	dict.</li>
+            <li>Set Types:	set, frozenset</li>
+            <li>Boolean Type:	bool</li>
+            <li>
+              Binary Types:	bytes, bytearray, memoryview
+            </li>
+          </ul>
+        </li>
+
+        
+      </ul>
+      
+    </article>
+  </section>
+  
+ 
+  
+  
+  <section class="main-section" id="Reference">
+    <header>Reference</header>
+    <article>
+      <ul>
+        <li>
+          All the documentation in this page is taken from
+          <a
+            href="https://www.w3schools.com/python/python_functions.asp"
+            target="_blank"
+            >w3schools</a
+          >
+        </li>
+      </ul>
+    </article>
+  </section>
+</main>
+
+</body>
+</html>
